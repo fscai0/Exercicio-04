@@ -18,29 +18,28 @@
   </header>
   <form>
     <fieldset>
-      <legend>Informações do Evento</legend>
+      
       <div class="input-wrapper">
+        <legend>Informações do Evento</legend>
         <label for="titulo-evento">Título do evento<span>(Mínimo 8 Caracteres)</span></label>
         <input type="text" id="titulo-evento" placeholder="Digite o titulo do evento">
         <label for="link-evento">Link do evento<span>(comece com https://)</span></label>
-        <input type="text" id="link-evento" placeholder="https://www.link-do-evento.com.br">
-        <label for="whatsapp-contato">Whatsapp para contato<span>(somente números)</span></label>
-        <input type="tel" id="whatsapp-contato" placeholder="Seu Whatsapp">
-        <label for="whatsapp-contato">Informações extras</span></label>
-        <textarea name="" id="whatsapp-contato" cols="30" rows="4"></textarea>
-        <label for="whatsapp-contato">Categoria</span></label>
+        <input type="url" id="link-evento" placeholder="https://www.link-do-evento.com.br">
+        <label for="link-evento">Whatsapp para contato<span>(somente números)</span></label>
+        <input type="tel" id="informacao-extra" placeholder="Seu Whatsapp">
+        <label for="informacao-extra">Informações extras</span></label>
+        <textarea name="" id="categoria-form" cols="30" rows="4"></textarea>
+        <label for="categoria-form">Categoria</span></label>
         <select name="select">
           <option value="valor1">Tipo do Evento</option>
         </select>
       </div>
-      <legend>Privacidade</legend>
       <div class="input-wrapper">
+        <legend>Privacidade</legend>
         <label for="titulo-evento">E-mail do administrador<span>(digite um email válido)</span></label>
         <input type="email" id="titulo-evento" placeholder="E-mail valido">
         <label for="link-evento">Senha de acesso para os participantes<span>(mínimo 8 caracteres)</span></label>
         <input type="password" id="link-evento" placeholder="Senha de administrador">
-        <label for="whatsapp-contato">Whatsapp para contato<span>(somente números)</span></label>
-        <input type="tel" id="whatsapp-contato" placeholder="Seu Whatsapp">
         <input type="checkbox" id="scales" name="scales" checked>
         <label for="scales">Scales</label>
       </div>

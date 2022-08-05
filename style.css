@@ -1,6 +1,15 @@
-body{
-  background-color: #E5E5E5;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, form, input, button, select{
   font-family: "poppins", sans-serif;
+}
+
+body{
+  background-color: #E6E6F0;
   width: 736px;
   margin: 80px auto 0 ;
 }
@@ -16,13 +25,15 @@ body::before{
   z-index: -1;
 }
 header{
-  margin: 0 0 42px 0 ;
+  margin: 0 0 42px 0;
+  width: 400px;
 }
 header h1 {
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
   color: #fff;
+  padding: 0 0 24px 0;
 }
 header p {
   font-weight: 400;
@@ -80,4 +91,8 @@ input,textarea,select{
   padding: 0 0 24px 0;
 }
 
+.input-wrapper select{
+  appearance: none;
+  -webkit-appearance: none;
+}
 
